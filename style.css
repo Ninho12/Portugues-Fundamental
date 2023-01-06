@@ -6,6 +6,7 @@
 */
 
 body{
+    background-color: #ddd;
     padding: 0px;
 }
 
@@ -14,22 +15,46 @@ iframe{
     height:100vh;
 }
 
+#voltar{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+article{
+    width: 80%;
+    min-width: 400px;
+    max-width: 900px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+
 h1{
-    font-size: 60px;
+    font-size: 55px;
 }
 
 p, li{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 li{
     margin-top: 20px;
     padding: 5px;
     border-radius: 10px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 li:hover{
     background-color: #ccc;
-    transition: 1s;
+    transition: 0.5s;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
