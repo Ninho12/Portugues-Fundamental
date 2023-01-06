@@ -1,0 +1,21 @@
+{
+  "name": "portugues-fundamental",
+  "version": "1.0.0",
+  "description": "Esse projeto é para ajudar os estutandes de concursos publicos do ensino fundamental.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "concurso",
+    "estudos",
+    "portugues",
+    "fundamental"
+  ],
+  "author": "João Paulo Sena Padilha",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0"
+  }
+}
