@@ -23,6 +23,17 @@ iframe{
     border: 1px solid black;
 }
 
+#voltar a{
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#voltar a:hover{
+    background-color: #ccc;
+    transition: 0.5s;
+}
+
 article{
     width: 80%;
     min-width: 400px;
